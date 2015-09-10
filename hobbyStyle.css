@@ -1,9 +1,3 @@
-.container {
-   max-width: 1000px;
-   padding: 0;
-}
-
-
 .header {
    background-color: #ccc;
    font-family: 'Iceland', cursive;
@@ -65,27 +59,23 @@ body{
    background-color: #fff;   
 }
 
-/*.body {
-   font-family: 'Iceland', cursive;
-   color: #000;
-}
-
-.body:before {
-   background-image: url('https://cdn.evbuc.com/images/12533041/135519218246/1/logo.png');
-   opacity: .3;
-}*/
 .body {
     position: relative;
     overflow: hidden;
+	font-family: 'Iceland', cursive;
+    color: #000;
 }
+
 .body:before {
     content: ' ';
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.1;
-    background-image: url('https://cdn.evbuc.com/images/12533041/135519218246/1/logo.png');
+    opacity: 0.2;
+	background-image: url('https://cdn.evbuc.com/images/12533041/135519218246/1/logo.png');
+	z-index: -1;
 }
+
 .body h3 {
    text-align: center;
    font-size: 40px;
@@ -94,7 +84,6 @@ body{
 
 .body p {
    font-size: 25px;
-   
 }
 
 .image {
