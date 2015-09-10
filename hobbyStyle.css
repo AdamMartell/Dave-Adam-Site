@@ -55,17 +55,17 @@ body{
    background-color: #ccc;   
 }
 
-.volleyball {
+.body {
    font-family: 'Iceland', cursive;
    color: #000;
 }
 
-.volleyball h3 {
+.body h3 {
    text-align: center;
    font-size: 40px;
 }
 
-.volleyball p {
+.body p {
    font-size: 25px;
 }
 
